@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
@@ -8,15 +8,15 @@
 
 body {
     margin: 1.5rem;
-    font-family: "Open Sans", serif;
+    font-family: "Inconsolata", serif;
     text-align: center;
-    color: #e0e0e0;
-    background-color: #121212;
+    color: #e6edf3;
+    background-color: #010409;
 }
 
 nav {
     margin: 0 auto 1rem;
-    border: 1px solid #1db954;
+    border: 1px solid #6e7681;
     border-radius: 1.5rem;
     overflow: hidden;
     /* overflow is a better option than setting border-radius in h1 and li */
@@ -27,16 +27,18 @@ nav {
 
 h1 {
     padding: 1rem;
-    color: #121212;
-    background: #1db954;
+    font-family: "Open Sans", serif;
+    color: #e6edf3;
+    background: #161b22;
 }
 
 ul {
     list-style-type: none;
+    background: #0d1117;
 }
 
 li {
-    border-top: 1px solid #1db954;
+    border-top: 1px solid #6e7681;
 
 }
 
@@ -46,14 +48,14 @@ li a {
 
 li a,
 li a:visited {
-    color: #1db954;
+    color: #79c0ff;
     text-decoration: none;
 }
 
 li a:hover,
 li a:focus {
-    color: #e0e0e0;
-    background: #333333;
+    color: #1db954;
+    background: hsla(141, 73%, 42%, 0.2);
     cursor: pointer;
 }
 
@@ -64,13 +66,13 @@ p {
 
 a,
 a:visited {
-    color: #1db954;
+    color: #79c0ff;
     text-decoration: none;
 }
 
 a:hover,
 a:focus {
-    color: hsl(141, 73%, 55%);
+    color: hsl(141, 73%, 42%);
     text-decoration: underline;
     cursor: pointer;
 }
