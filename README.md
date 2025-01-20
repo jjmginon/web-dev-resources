@@ -1,5 +1,7 @@
 # Web Development Resources
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88d0c4c6-062c-4dd6-bc3d-9358bdfc0cc2/deploy-status)](https://app.netlify.com/sites/web-dev-resources-hub/deploys)
+
 Welcome to the **Web Development Resources** repository! This repository provides a collection of valuable resources for web development, including HTML, CSS, JavaScript tutorials, projects, and more.
 
 ## Table of Contents
